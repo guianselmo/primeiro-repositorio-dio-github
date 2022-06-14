@@ -1,0 +1,23 @@
+cd (Change Directory) - Caminha até o arquivo, exemplo: cd C:/Gui/Projeto/index.html
+
+cd .. - Volta para a pasta anterior
+
+dir - Lista de diretórios dentro da pasta caminhada
+
+cls (Clear Screen) - Limpa o prompt de comando
+
+mkdir "NomeDaPasta" (Make Directory) - Cria uma pasta
+
+echo "Texto" - Mostra um texto no prompt de comando
+
+echo "Texto > texto.txt - Aplica dentro de um arquivo de texto a palavra texto.
+(Caso o texto.txt não exista na pasta caminhada, este comando cria o arquivo)
+
+del "NomeDaPasta" - Deleta tudo que existe dentro da pasta, mas a pasta não é deletada.
+
+rmdir "NomeDaPasta" - Remove o diretório selecionado e todos os arquivos dentro dele.
+
+
+
+
+

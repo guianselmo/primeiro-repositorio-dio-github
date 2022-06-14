@@ -1,0 +1,19 @@
+Configuração da Chave SSH
+
+Forma de estabelecer uma conexão segura entre seu computador e o github.
+Serve para não precisar colocar senha para enviar arquivos para o github.
+
+Comandos para criar a chave:
+
+ssh-keygen -t ed25519 -c "E-mail do GitHub"
+
+Após o comando vai mostrar onde a chave vai ser gerada no computador
+
+Se você caminhar até onde foi salva a chave e digitar o comando.
+cat id_ed25519.pub
+Você recebe a versão da chave pública.
+
+Essa chave é colocada no site do github.
+
+eval $(ssh-agent -s)
+ssh-add id_ed25519

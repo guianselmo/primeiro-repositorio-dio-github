@@ -1,0 +1,11 @@
+Commit ________ Tree
+   \  \______ Tree
+    \_________ Tree _______ Bloob
+                 \  \______ Bloob
+                  \________ Bloob
+
+
+Esses objetos garantem segurança na organização dos arquivos.
+Sempre que o bloob for alterado o código hash da tree e do commit
+serão alterados também, pois um esta ligado ao outro, assim facilitando
+saber qual arquivo foi alterado ou não.

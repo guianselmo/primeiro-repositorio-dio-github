@@ -1,0 +1,31 @@
+Aqui define o e-mail global que vai ser usado como usuário do git
+git config --global user.email "guianselmoo@hotmail.com"
+
+Aqui define o nome de usuário global que vai ser usado no git
+git config --global user.name "guianselmoo"
+
+git init - inicializa o arquivo selecionado pelo cd
+
+git add - adiciona o arquivo
+
+Existem 4 características importantes nesses arquivos
+
+Untracked (Arquivo novo que o git não reconheceu ainda).
+Caso for usado git add nesse arquivo ele vira um arquivo Staged.
+
+Unmodified (Arquivo nunca modificado)
+Uso do git add modifica o arquivo alterando para Modified
+
+Modified (Arquivo modificado)
+Uso do git add altera para Staged
+
+Stage (Está aguardando alguma ação)
+Pronto para ser commitado
+
+git commit - a grosso modo salva o arquivo Staged, é um checkpoint, trasnformando-o em unmodified
+git commit -m "Mensagem" - Adiciona uma mensagem nesse commit.
+
+git status - mostra em qual desses estágios está o arquivo.
+
+Extra:
+git add * - o sinal asterisco move todos os arquivos da pasta para o próximo estágio.

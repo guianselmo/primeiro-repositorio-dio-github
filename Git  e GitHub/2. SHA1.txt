@@ -1,0 +1,10 @@
+A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro),
+é um conjunto de funções hash criptográficas projetadas pela NSA (Agência
+de Segurança Nacional dos EUA).
+
+Ele dá um código de 40 dígitos aleatório para o arquivo selecionado.
+
+uso: openssl sha1
+
+Cada arquivo possui um código diferente, caso for alterado o arquivo, o
+código mudará, perfeito para ver se o código foi alterado.
